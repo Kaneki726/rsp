@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="main">
+		<h1>Камень, Ножницы, Бумага</h1>
+		<div class="intro">
+			<div class="score">
+				<div class="intro2">
+					<p>user:comp</p>
+					<p><span id="user-score">0</span><span>:</span><span id="comp-score">0</span></p>
+				</div>
+			</div>
+			<div class="intro3">
+				<p onclick="GetComputerChoose()">Сыграем? Сделай ход!</p>
+				<p><span id="user-move">0</span><span>:</span><span id="comp-move">0</span></p>
+			</div>
+			<div class="images">
+				<img onclick="GetUserChoose('p')" id="paper"src="images/paper.png">
+				<img onclick="GetUserChoose('r')" id="rock"src="images/rock.png">
+				<img onclick="GetUserChoose('s')" id="scissors"src="images/scissors.png">
+			</div>
+		</div>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
